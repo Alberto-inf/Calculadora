@@ -1,0 +1,44 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin:0;
+    background-color: #efefef;
+}
+
+header{
+    background-color:#364552;
+    color:white;
+    padding: 1rem 0.5rem;
+}
+
+header h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.calculadora{
+    font-size:30px;
+    border: 3px solid rgb(46, 46, 46);
+    width: 300px;
+    background-color:rgb(206, 202, 202);
+    text-align: center;
+}
+
+#pantalla{
+    border: 2px solid black;
+    text-align: right;
+    width:250px;
+    position:relative;
+    left:18px;
+    padding: 0px 5px;
+    background-color: white;
+}
+
+.calculadora [type="button"]{
+    width:60px;
+    height: 30px;
+    padding:0;
+    font-size:20px;
+}

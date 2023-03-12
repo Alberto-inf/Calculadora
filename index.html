@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" >
+    <script src="calculadora.js"></script>
+</head>
+<body>
+    <header id="titulo">
+        <h1>Calculadora</h1>
+    </header>
+    <div class="calculadora">
+        <form name="calculadora" id="calculadora">
+            <p id="pantalla">
+                0
+            </p>
+            <p>
+                <input type="button" value="Ce" onclick="borrarparcial()">
+                <input type="button" value="C" onclick="borrartodo()">
+                <input type="button" value="Ret" onclick="retroceso()">
+                <input type="button" value="/" onclick="operacion('/')">
+            </p>
+            <p>
+                <input type="button" value="7" onclick="numero('7')">
+                <input type="button" value="8" onclick="numero('8')">
+                <input type="button" value="9" onclick="numero('9')">
+                <input type="button" value="x" onclick="operacion('*')"> 
+            </p>
+            <p>
+                <input type="button" value="4" onclick="numero('4')">
+                <input type="button" value="5" onclick="numero('5')">
+                <input type="button" value="6" onclick="numero('6')">
+                <input type="button" value="-" onclick="operacion('-')"> 
+            </p>
+            <p>
+                <input type="button" value="1" onclick="numero('1')">
+                <input type="button" value="2" onclick="numero('2')">
+                <input type="button" value="3" onclick="numero('3')">
+                <input type="button" value="+" onclick="operacion('+')"> 
+            </p>
+            <p>
+                <input type="button" value="+/-" onclick="opuesto()">
+                <input type="button" value="0" onclick="numero('0')">
+                <input type="button" value="." onclick="numero('.')">
+                <input type="button" value="=" onclick="igual()"> 
+            </p>
+
+        </form>
+
+    </div>
+</body>
+</html>
